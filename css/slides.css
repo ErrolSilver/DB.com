@@ -1,0 +1,28 @@
+/*
+ * Custom slide background images
+ * are defined in this file
+ */
+
+.slide-1 .slide-layer--background {
+  background-image:  url('../img/slide-1-bg.jpg');
+}
+
+.slide-1 .slide-layer--foreground {
+  background-image: url('../img/slide-1-fg.png');
+}
+
+.slide-2 .slide-layer--background {
+  background-image:  url('../img/slide-2-bg.jpg');
+}
+
+.slide-2 .slide-layer--foreground {
+  background-image: url('../img/slide-2-fg.png');
+}
+
+.slide-3 .slide-layer--background {
+  background-image:  url('../img/slide-3-bg.png');
+}
+
+.slide-3 .slide-layer--foreground {
+  background-image: url('../img/slide-3-fg.png');
+}

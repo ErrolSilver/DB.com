@@ -1,0 +1,115 @@
+html {
+  height: 100%;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  font-size: 1em;
+  font-size: percentage(10 / 16);
+  
+  /*
+  @media (min-width: 768px) {
+    // Small screens. 1rem = 8px
+    font-size: percentage(8 / 16);
+  }
+  @media (min-width: 992px) {
+    // Medium screens. 1rem = 9px
+    font-size: percentage(9 / 16);
+  }
+  @media (min-width: 1200px) {
+    // Large screens. 1rem = 10px
+    font-size: percentage(10 / 16);
+  }
+  */
+}
+
+body {
+  font-family: $body;
+  font-kerning: normal;
+  font-size: 18px;
+  height: 100%;
+}
+
+.site-wrapper {
+  height: 100%;
+}
+
+%font-margin {
+  margin-bottom: 1.8rem;
+  margin-top: 0;
+}
+
+h1, 
+.h1 {
+  @extend %font-margin;
+  font-family: $heading;
+  font-size: 4.2rem;
+  text-transform: uppercase;
+
+  @media (max-width: $break-sm) {
+    line-height: 1.4;
+  }
+
+  @media (min-width: 768px) {
+    // Small screens. 1rem = 8px
+    font-size: 7.6rem;
+  }
+  @media (min-width: 992px) {
+    // Medium screens. 1rem = 9px
+    font-size: 7.6rem;
+  }
+  @media (min-width: 1200px) {
+    // Large screens. 1rem = 10px
+    font-size: 7.6rem;
+  }
+}
+
+h2, 
+.h2 {
+  @extend %font-margin;
+  font-family: $heading;
+  font-size: 7.2rem;
+}
+
+h3, 
+.h3 {
+  @extend %font-margin;
+  font-family: $heading;
+  font-size: 7rem;
+}
+
+h4, 
+.h4 {
+  @extend %font-margin;
+  font-family: $heading;
+  font-size: 6.4rem;
+}
+
+h5, 
+.h5 {
+  @extend %font-margin;
+  font-family: $heading;
+  font-size: 6rem;
+}
+
+h6, 
+.h6 {
+  @extend %font-margin;
+  font-family: $heading;
+  font-size: 5.8rem;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 1.8rem;
+  margin-bottom: 1em;
+}
+
+ol {
+  line-height: 1.8;
+}
+
+ul {
+  line-height: 1.8;
+}
